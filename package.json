@@ -1,7 +1,7 @@
 {
   "name": "rolex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Guided project for **Web DB III** Module.",
   "main": "index.js",
   "scripts": {
     "server": "nodemon"
@@ -16,5 +16,11 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
-  }
+  },
+  "repository": "git+https://github.com/ItelSunday/database-iii.git",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItelSunday/database-iii/issues"
+  },
+  "homepage": "https://github.com/ItelSunday/database-iii#readme"
 }
