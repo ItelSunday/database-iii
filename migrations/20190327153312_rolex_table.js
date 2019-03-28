@@ -7,6 +7,7 @@ return knex.schema.createTable('roles', function(tbl) {
     .string('name', 128)
     .notNullable()
     .unique(); // auto generates second arguement for other way writing
+    
     tbl.timestamps(true, true);
 }); 
 };
